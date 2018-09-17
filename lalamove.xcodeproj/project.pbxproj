@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D32F87C214FCE70003B8788 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32F87B214FCE70003B8788 /* AppConstants.swift */; };
+		4D32F87F214FD0FB003B8788 /* DeliveriesAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32F87E214FD0FB003B8788 /* DeliveriesAPIService.swift */; };
+		4D32F884214FDB31003B8788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D32F883214FDB31003B8788 /* Main.storyboard */; };
 		4DC04F50214C2AC300441398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC04F4F214C2AC300441398 /* AppDelegate.swift */; };
-		4DC04F52214C2AC300441398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC04F51214C2AC300441398 /* ViewController.swift */; };
-		4DC04F55214C2AC300441398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC04F53214C2AC300441398 /* Main.storyboard */; };
+		4DC04F52214C2AC300441398 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC04F51214C2AC300441398 /* HomeVC.swift */; };
 		4DC04F57214C2AC400441398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC04F56214C2AC400441398 /* Assets.xcassets */; };
 		4DC04F5A214C2AC400441398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC04F58214C2AC400441398 /* LaunchScreen.storyboard */; };
+		4DC04F63214C327A00441398 /* DeliveryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC04F62214C327A00441398 /* DeliveryDetailsVC.swift */; };
+		4DC04F65214C337400441398 /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC04F64214C337400441398 /* Delivery.swift */; };
+		4DC04F67214C337F00441398 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC04F66214C337F00441398 /* Location.swift */; };
+		4DC04F6A214C382000441398 /* TableViewCell+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC04F69214C382000441398 /* TableViewCell+Identifier.swift */; };
+		4DC04F6C214C38D600441398 /* ImageView+SetImageWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC04F6B214C38D600441398 /* ImageView+SetImageWithURL.swift */; };
+		4DC04F6E214C39FB00441398 /* DeliveryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC04F6D214C39FB00441398 /* DeliveryCell.swift */; };
+		4FF315CB0B189419AD1783E2 /* Pods_lalamove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03891592305DBD760692FB72 /* Pods_lalamove.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03891592305DBD760692FB72 /* Pods_lalamove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lalamove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D32F87B214FCE70003B8788 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		4D32F87E214FD0FB003B8788 /* DeliveriesAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveriesAPIService.swift; sourceTree = "<group>"; };
+		4D32F883214FDB31003B8788 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4DC04F4C214C2AC300441398 /* lalamove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lalamove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC04F4F214C2AC300441398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DC04F51214C2AC300441398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DC04F54214C2AC300441398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DC04F51214C2AC300441398 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		4DC04F56214C2AC400441398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC04F59214C2AC400441398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DC04F5B214C2AC400441398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC04F62214C327A00441398 /* DeliveryDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDetailsVC.swift; sourceTree = "<group>"; };
+		4DC04F64214C337400441398 /* Delivery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delivery.swift; sourceTree = "<group>"; };
+		4DC04F66214C337F00441398 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		4DC04F69214C382000441398 /* TableViewCell+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewCell+Identifier.swift"; sourceTree = "<group>"; };
+		4DC04F6B214C38D600441398 /* ImageView+SetImageWithURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+SetImageWithURL.swift"; sourceTree = "<group>"; };
+		4DC04F6D214C39FB00441398 /* DeliveryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryCell.swift; sourceTree = "<group>"; };
+		D2BE46BAFEAAC87D9F6446A5 /* Pods-lalamove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lalamove.release.xcconfig"; path = "Pods/Target Support Files/Pods-lalamove/Pods-lalamove.release.xcconfig"; sourceTree = "<group>"; };
+		F30EE661170A2188E786D906 /* Pods-lalamove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lalamove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lalamove/Pods-lalamove.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF315CB0B189419AD1783E2 /* Pods_lalamove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ECDCE633C1C5BD1A3988506 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03891592305DBD760692FB72 /* Pods_lalamove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D32F87A214FCE5C003B8788 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4D32F87B214FCE70003B8788 /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4D32F87D214FD0E5003B8788 /* API Service */ = {
+			isa = PBXGroup;
+			children = (
+				4D32F87E214FD0FB003B8788 /* DeliveriesAPIService.swift */,
+			);
+			path = "API Service";
+			sourceTree = "<group>";
+		};
+		4D32F880214FD16E003B8788 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DC04F64214C337400441398 /* Delivery.swift */,
+				4DC04F66214C337F00441398 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D32F881214FD190003B8788 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DC04F51214C2AC300441398 /* HomeVC.swift */,
+				4DC04F62214C327A00441398 /* DeliveryDetailsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D32F882214FD1B4003B8788 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4DC04F6D214C39FB00441398 /* DeliveryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		4DC04F43214C2AC300441398 = {
 			isa = PBXGroup;
 			children = (
 				4DC04F4E214C2AC300441398 /* lalamove */,
 				4DC04F4D214C2AC300441398 /* Products */,
+				E011981AE487C92A103D9565 /* Pods */,
+				2ECDCE633C1C5BD1A3988506 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +127,45 @@
 		4DC04F4E214C2AC300441398 /* lalamove */ = {
 			isa = PBXGroup;
 			children = (
-				4DC04F4F214C2AC300441398 /* AppDelegate.swift */,
-				4DC04F51214C2AC300441398 /* ViewController.swift */,
-				4DC04F53214C2AC300441398 /* Main.storyboard */,
-				4DC04F56214C2AC400441398 /* Assets.xcassets */,
-				4DC04F58214C2AC400441398 /* LaunchScreen.storyboard */,
-				4DC04F5B214C2AC400441398 /* Info.plist */,
+				4D32F882214FD1B4003B8788 /* Cells */,
+				4D32F881214FD190003B8788 /* Controllers */,
+				4D32F880214FD16E003B8788 /* Models */,
+				4D32F87D214FD0E5003B8788 /* API Service */,
+				4D32F87A214FCE5C003B8788 /* Constants */,
+				4DC04F68214C37F500441398 /* Extensions */,
+				4DC04F61214C305000441398 /* Supporting Files */,
 			);
 			path = lalamove;
+			sourceTree = "<group>";
+		};
+		4DC04F61214C305000441398 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC04F4F214C2AC300441398 /* AppDelegate.swift */,
+				4D32F883214FDB31003B8788 /* Main.storyboard */,
+				4DC04F58214C2AC400441398 /* LaunchScreen.storyboard */,
+				4DC04F56214C2AC400441398 /* Assets.xcassets */,
+				4DC04F5B214C2AC400441398 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DC04F68214C37F500441398 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4DC04F69214C382000441398 /* TableViewCell+Identifier.swift */,
+				4DC04F6B214C38D600441398 /* ImageView+SetImageWithURL.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E011981AE487C92A103D9565 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F30EE661170A2188E786D906 /* Pods-lalamove.debug.xcconfig */,
+				D2BE46BAFEAAC87D9F6446A5 /* Pods-lalamove.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DC04F5E214C2AC400441398 /* Build configuration list for PBXNativeTarget "lalamove" */;
 			buildPhases = (
+				D0C1967CF4F52A31BAE81EE6 /* [CP] Check Pods Manifest.lock */,
 				4DC04F48214C2AC300441398 /* Sources */,
 				4DC04F49214C2AC300441398 /* Frameworks */,
 				4DC04F4A214C2AC300441398 /* Resources */,
+				429AD258C6BD328BD666B102 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,20 +228,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D32F884214FDB31003B8788 /* Main.storyboard in Resources */,
 				4DC04F5A214C2AC400441398 /* LaunchScreen.storyboard in Resources */,
 				4DC04F57214C2AC400441398 /* Assets.xcassets in Resources */,
-				4DC04F55214C2AC300441398 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		429AD258C6BD328BD666B102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lalamove/Pods-lalamove-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lalamove/Pods-lalamove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C1967CF4F52A31BAE81EE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lalamove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DC04F48214C2AC300441398 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC04F52214C2AC300441398 /* ViewController.swift in Sources */,
+				4DC04F63214C327A00441398 /* DeliveryDetailsVC.swift in Sources */,
+				4D32F87C214FCE70003B8788 /* AppConstants.swift in Sources */,
+				4DC04F6E214C39FB00441398 /* DeliveryCell.swift in Sources */,
+				4DC04F65214C337400441398 /* Delivery.swift in Sources */,
+				4D32F87F214FD0FB003B8788 /* DeliveriesAPIService.swift in Sources */,
+				4DC04F67214C337F00441398 /* Location.swift in Sources */,
+				4DC04F52214C2AC300441398 /* HomeVC.swift in Sources */,
+				4DC04F6A214C382000441398 /* TableViewCell+Identifier.swift in Sources */,
+				4DC04F6C214C38D600441398 /* ImageView+SetImageWithURL.swift in Sources */,
 				4DC04F50214C2AC300441398 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +298,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4DC04F53214C2AC300441398 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DC04F54214C2AC300441398 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4DC04F58214C2AC400441398 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,11 +425,13 @@
 		};
 		4DC04F5F214C2AC400441398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30EE661170A2188E786D906 /* Pods-lalamove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNVR74NZ7C;
-				INFOPLIST_FILE = lalamove/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/lalamove/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +445,13 @@
 		};
 		4DC04F60214C2AC400441398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2BE46BAFEAAC87D9F6446A5 /* Pods-lalamove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNVR74NZ7C;
-				INFOPLIST_FILE = lalamove/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/lalamove/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
